@@ -53,14 +53,17 @@ Create a high-score leaderboard system for your SA-MP server using the `algorith
 3. **Server Popularity**: With an attractive high-score leaderboard, your server can attract more players and retain existing ones.
 4. **Community Engagement**: Leaderboards can foster a sense of community as players strive to outperform each other.
 
-**Implementation with algorithm_utils:**
-When a player achieves a new high score, the system can use the `Algorithm_InsertionSort` function from the `algorithm_utils` library to efficiently insert the score into the sorted array of high scores. This will ensure that the array remains sorted at all times without the need to sort the entire array after each update.
-
-Additionally, you can use the `Algorithm_BinarySearch` function from the `algorithm_utils` library to quickly find a player's position on the leaderboard and display the relevant information to them in-game.
-
-By incorporating the `algorithm_utils` library, you can efficiently manage and update the high-score leaderboard, providing a seamless and smooth experience for players while maintaining optimal server performance.
-
-Remember to adapt this project idea to your specific SA-MP server's game modes and activities, and ensure that you follow best practices for data management and security to create a robust and rewarding leaderboard system.
+# Projects Ideas
+1. **Player Inventory Sorting**: Implement a player inventory system where players can store items. Use `Algorithm_InsertionSort` or `Algorithm_SelectionSort` to allow players to sort their inventory by name, quantity, or any other attribute.
+2. **Quest Progress Tracker**: Create a quest system that tracks the progress of players' quests. Utilize `Algorithm_BinarySearch` to quickly find the active quests or completed quests for a specific player.
+3. **Player Ranking System**: Develop a ranking system that calculates players' scores based on their achievements or gameplay performance. Utilize `Algorithm_QuickSort` to display the top-ranked players on a leaderboard.
+4. **Item Shop Search**: Design an item shop system where players can search for items based on their names or attributes. Implement `Algorithm_LinearSearch` to efficiently find and display search results.
+5. **Voting System**: Create a voting system that allows players to vote for various in-game events or features. Use `Algorithm_InsertionSort` or `Algorithm_SelectionSort` to sort the voting results in descending order.
+6. **Player Trading System**: Implement a player-to-player trading system. Use `Algorithm_InsertionSort` or `Algorithm_SelectionSort` to arrange tradeable items in a player's inventory efficiently.
+7. **Weather Forecasting**: Create a dynamic weather system that forecasts the weather for different in-game regions. Use `Algorithm_BinarySearch` to quickly find the weather forecast for a specific location.
+8. **Random Events Manager**: Develop a system that triggers random events during gameplay. Utilize `Algorithm_SelectionSort` or `Algorithm_BubbleSort` to sort the events based on their priority.
+9. **Server Log Analysis**: Implement a log analysis system that processes server logs to identify patterns or anomalies. Utilize `Algorithm_QuickSort` to sort log entries by timestamp for chronological analysis.
+10. **Dynamic Vehicle Spawner**: Create a vehicle spawner system that dynamically spawns vehicles based on player requests. Use `Algorithm_LinearSearch` or `Algorithm_BinarySearch` to quickly find available vehicle spawn points.
 
 ## License
 
