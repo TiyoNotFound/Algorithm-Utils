@@ -28,6 +28,19 @@ The Algorithm Utils library provides a collection of sorting and searching algor
 - **Scalability**: The library scales effortlessly with your server's growth.
 - **Code Reusability**: Modular design promotes code reuse and maintainability.
 
+## Difference
+**Without `algorithm_utils` Include (Manual Sorting)**:
+- In this approach, you manually write the code for sorting the array using a specific sorting algorithm like Bubble Sort.
+- You need to implement the sorting logic yourself, including loops and swap operations to rearrange the elements.
+- It requires more code and can be more challenging to understand and maintain.
+
+**With `algorithm_utils` Include (Using `algorithm_utils` Library)**:
+- With the `algorithm_utils` include, you have access to pre-built sorting functions like `Algorithm_BubbleSort`, which handle the sorting process for you.
+- You simply call the `Algorithm_BubbleSort` function and provide the array you want to sort as a parameter.
+- The `algorithm_utils` library contains efficient and tested sorting algorithms, so you don't need to worry about implementing the sorting logic yourself.
+
+In summary, using the `algorithm_utils` include makes sorting arrays easier because you can use ready-made sorting functions. Without it, you have to manually write the sorting logic, which can be more complex and time-consuming. The `algorithm_utils` library simplifies the process and ensures that you have optimized and reliable sorting algorithms at your disposal.
+
 ## Usage
 
 1. Download the `algorithm_utils.pwn` file from the `dist` directory.
