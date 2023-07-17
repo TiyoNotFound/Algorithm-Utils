@@ -72,4 +72,4 @@ Contributions to the library are welcome! Please open an issue or a pull request
 
 ---
 
-Thank you for using the Algorithm Utils library! If you have any questions or need assistance, feel free to contact us at support@example.com.
+Thank you for using the Algorithm Utils library! If you have any questions or need assistance, feel free to contact me at tiyonotfound@gmail.com
