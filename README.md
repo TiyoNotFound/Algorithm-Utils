@@ -34,24 +34,6 @@ The Algorithm Utils library provides a collection of sorting and searching algor
 2. Include the library in your SA-MP server script using `#include <algorithm_utils>`.
 3. Utilize the various sorting and searching functions based on your requirements.
 
-## Project Idea: SA-MP High Score Leaderboard
-
-**Description:**
-Create a high-score leaderboard system for your SA-MP server using the `algorithm_utils` library. The system will allow players to compete for the highest scores in a specific game mode or activity and display the top scores on a leaderboard in real-time.
-
-**Features:**
-1. **Data Storage**: Implement a system to store player scores and usernames, such as in a dynamic array or a database (MySQL or SQLite).
-2. **Data Management**: Use the `algorithm_utils` library to efficiently sort the high scores in descending order, so the highest scores appear at the top of the leaderboard.
-3. **Real-time Leaderboard**: Update the leaderboard in real-time when players achieve new high scores, ensuring that the top scores are always up to date.
-4. **Player Interaction**: Allow players to view the leaderboard in-game through a command or an NPC interaction, making it easy for them to see their rankings.
-5. **Security Measures**: Implement appropriate security measures to prevent cheating or exploiting the leaderboard system.
-6. **Leaderboard Persistence**: Optionally, save the leaderboard data periodically to a file or a database to ensure data persistence across server restarts.
-
-**Advantages:**
-1. **Enhanced Gameplay Experience**: Players will have an additional challenge and motivation to compete for top positions on the leaderboard, leading to more engaging gameplay.
-2. **Player Retention**: The competitive nature of leaderboards can encourage players to spend more time on the server to improve their rankings.
-3. **Server Popularity**: With an attractive high-score leaderboard, your server can attract more players and retain existing ones.
-4. **Community Engagement**: Leaderboards can foster a sense of community as players strive to outperform each other.
 
 # Projects Ideas
 1. **Player Inventory Sorting**: Implement a player inventory system where players can store items. Use `Algorithm_InsertionSort` or `Algorithm_SelectionSort` to allow players to sort their inventory by name, quantity, or any other attribute.
